@@ -1,0 +1,121 @@
+.navbar{
+    height: 70px;
+    background-color: rgb(245, 150, 150); /* For browsers that do not support gradients */
+    background-image: linear-gradient(to  right, rgb(247, 126, 126), rgb(247, 247, 242));
+}
+.navbar ul li a:hover{
+    text-shadow: 4px 5px 6px black;
+    text-decoration: underline;
+font-style: italic;
+font-size: large;
+}z
+#carouselExampleFade img{
+    border-radius: 20%;
+}
+#carouselExampleFade img:hover{
+    
+    border: 3px ridge rgb(7, 7, 7) ;
+    box-shadow: 4px 4px 5px black;
+}
+
+.card1 h3{
+    text-align: center;
+    color: rgb(236, 159, 159);
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.card:hover{
+    
+    box-shadow: 1px 3px 3px 1px rgb(35, 34, 34);
+    transform: translate(8px, 5px);
+}
+h2{
+    background-color: rgb(245, 150, 150); /* For browsers that do not support gradients */
+    background-image: linear-gradient(to  left, rgb(247, 126, 126), rgb(247, 247, 242));
+}
+footer{
+    background-color: rgb(140, 183, 116); /* For browsers that do not support gradients */
+    background-image: linear-gradient(to  right, rgb(247, 126, 126), rgb(247, 247, 242));
+}
+span img{
+    border-radius: 50%;
+}
+#b1{
+    height: 180px;
+     width: 180px;
+    transition: width 2s, height 2s, transform 2s;
+}
+ #b1:hover{
+    width: 210px;
+    height: 210px;
+    transform: rotate(180deg);
+    
+    
+}
+form{
+    background-color: rgb(245, 186, 186); /* For browsers that do not support gradients */
+    background-image: linear-gradient(to  left, rgb(247, 148, 148), rgb(220, 176, 79));
+}
+.card-body p{
+    text-align: justify;
+    padding: 10px;
+}
+@media screen and (max-width:400px) {
+    *{
+        font-size: xx-small;
+        margin: 0px;
+        padding: 0px;
+    }
+    .navbar{
+        width: 400px;
+        justify-content: center;
+        }
+        
+        .navbar-nav  a{
+            padding-left: 0px;
+        }
+        #carouselExampleFade img{
+            width: 400px;
+            height: 100px;
+        }
+        #about{
+            width: 350px;
+            margin: 0px;
+            padding-left: 5px;
+           
+        }
+        #topdestinations{
+            width: 400px;
+            padding: 0px;
+            margin: 0px;
+        }
+        .card{
+            padding: 0px;
+            margin: 0px;
+        }
+        .card-group img{
+            width: 100px;
+            padding-left: 0px;
+        }
+        span img{
+            margin-left: 80px;
+            
+        }
+        #latestupdates{
+            width: 400px;
+            align-items: center;
+        }
+        .box1{
+           width: 400px;
+           
+        }
+        #popularguides{
+            width: 400px;
+        }
+        .col{
+            width: 360px;
+        }
+        iframe{
+            width: 350px;
+        }
+}
